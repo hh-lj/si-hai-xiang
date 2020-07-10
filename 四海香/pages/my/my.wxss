@@ -1,0 +1,80 @@
+/* 第一部分 */
+.first_box {
+  width: 750rpx;
+  height: 211rpx;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first_box .first_word {
+  width: 328rpx;
+  height: 117rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  /* text-align: center; */
+  letter-spacing: 3rpx;
+}
+
+.first_word .large_word {
+  font-size: medium;
+}
+
+.first_word .small_word {
+  font-size: small;
+  color: #ccc;
+  margin-top: 10rpx;
+}
+
+.first_box .first_img {
+  margin-right: 40rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+/* 第二部分 */
+.line{
+  width: 720rpx;
+  height: 1px;
+  background-color: #ccc;
+  margin-left:25rpx;
+}
+.s_box {
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.s_box .box {
+  width: 100%;
+  height: 98rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.s_box .box .box_img {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.s_box .box .word_box {
+  width: 651rpx;
+  height: 98rpx;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.word_box .word {
+  font-size: large;
+
+}
+
+.word_box .arrow {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}

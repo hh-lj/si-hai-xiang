@@ -1,0 +1,45 @@
+<!--pages/favorite/favorite.wxml-->
+<!-- 第一部分 -->
+<view class="first_box">
+	<view class="left_box">
+		<image class="left_img" src="../img/18.png"></image>
+		<view class="left_word">已收藏12个餐宴</view>
+	</view>
+	<view class="right_box">
+		<image class="right_img" src="../img/19.png"></image>
+		<view class="right_word">清空</view>
+	</view>
+</view>
+<!-- 第二部分 -->
+<view class="s_box">
+	<image class="s_img" src="../img/25.png"></image>
+	<view class="smallimg">
+		<image class="fire" src="../img/17.png"></image>
+		<view class="number">18888</view>
+	</view>
+	<view class="bottom_box">
+		<view class="left_box">
+			<view class="name">盛夏海鲜家宴</view>
+			<view class="price">￥4999/桌</view>
+		</view>
+		<view class="right_box">
+			<image src="../img/20.png" class="cancle"></image>
+			<view class="cancle_word">取消收藏</view>
+		</view>
+	</view>
+</view>
+
+<!-- 第三部分 -->
+<view class="third_box">
+	<image class="t_img" src="../img/38.png"></image>
+	<view class="bottom_box">
+		<view class="left_box">
+			<view class="name">精品西式家宴</view>
+			<view class="price">￥1299/桌</view>
+		</view>
+		<view class="right_box">
+			<image src="../img/20.png" class="cancle"></image>
+			<view class="cancle_word">取消收藏</view>
+		</view>
+	</view>
+</view>

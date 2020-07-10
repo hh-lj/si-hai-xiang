@@ -1,0 +1,35 @@
+<!--pages/my/my.wxml-->
+<!-- 第一部分 -->
+<view class="first_box">
+	<view class="first_word">
+		<view class="large_word">天下第壹吃货</view>
+		<view class="small_word">欢迎您光临四海香!</view>
+	</view>
+	<image class="first_img" src="../img/24.png"></image>
+</view>
+
+<!-- 第二部分 -->
+<view class="line"></view>
+<view class="s_box">
+	<view class="box">
+		<image class="box_img" src="../img/32.png"></image>
+		<view class="word_box">
+			<view class="word">烹饪历史</view>
+			<image class="arrow" src="../img/narrow.jpg"></image>
+		</view>
+	</view>
+	<view class="box">
+		<image class="box_img" src="../img/33.png"></image>
+		<view class="word_box">
+			<view class="word">支付记录</view>
+			<image class="arrow" src="../img/narrow.jpg"></image>
+		</view>
+	</view>
+	<view class="box">
+		<image class="box_img" src="../img/34.png"></image>
+		<view class="word_box">
+			<view class="word">举报投诉</view>
+			<image class="arrow" src="../img/narrow.jpg"></image>
+		</view>
+	</view>
+</view>

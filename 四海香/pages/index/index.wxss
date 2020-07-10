@@ -1,0 +1,270 @@
+/**index.wxss**/
+.bigbox {
+  width: 100%;
+  height: 2000rpx;
+  background-color: #f4f3f4;
+}
+
+.swiper-out {
+  width: 750rpx;
+  height: 380rpx;
+  position: relative;
+}
+
+/* 第一部分 */
+.swiper {
+  width: 750rpx;
+  height: 380rpx;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+}
+
+/* 第二部分 */
+.search {
+  width: 690rpx;
+  height: 92rpx;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 46rpx;
+  box-shadow: 3rpx 3rpx 8rpx rgba(0, 0, 0, 0.5);
+  margin-left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -40rpx;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+
+/* 第三部分 */
+.thirdbox {
+  width: 100%;
+  height: 300rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.box image {
+  width: 112rpx;
+  height: 112rpx;
+}
+
+/* 第四部分 */
+.application {
+  width: 100%;
+  height: 338rpx;
+  background-color: #fff;
+}
+
+.application image {
+  width: 690rpx;
+  height: 300rpx;
+  padding: 0 30rpx;
+}
+
+/* 第五部分 */
+.chef {
+  width: 100%;
+  height: 510rpx;
+  margin-top: 10rpx;
+  background-color: #fff;
+}
+
+.chef .imgchef {
+  width: 454rpx;
+  height: 80rpx;
+  margin-top: 25rpx;
+  padding: 0 144rpx;
+}
+
+.chef .chefbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.chefbox .box {
+  width: 221rpx;
+  height: 244rpx;
+  border-radius: 20rpx;
+  box-shadow: 10rpx -10rpx 8rpx rgba(0, 0, 0, 0.2);
+  /* background-color: yellowgreen; */
+}
+
+.chefbox .box .chefimg1 {
+  width: 221rpx;
+  height: 160rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+
+.chefbox .box .chefname {
+  width: 100%;
+  height: 36rpx;
+  text-align: center;
+}
+
+.chefbox .box .star {
+  width: 100%;
+  height: 25rpx;
+  /* border: 1px solid red; */
+  position: relative;
+  overflow: hidden;
+}
+
+.box .star .chefimg2 {
+  width: 126rpx;
+  height: 150rpx;
+  position: absolute;
+  top: -93rpx;
+  left: 50rpx
+}
+
+.chef .morechef {
+  width: 100%;
+  height: 40rpx;
+  font-size: large;
+  margin-top: 40rpx;
+  text-align: center;
+  color: #ccc;
+}
+
+/* 第六部分 */
+.dinner {
+  width: 100%;
+  height: 555rpx;
+  margin-top: 10rpx;
+  background-color: #fff;
+}
+
+.dinner .dinnerImg {
+  width: 454rpx;
+  height: 34rpx;
+  margin-top: 35rpx;
+  padding: 0 144rpx;
+}
+
+.dinner .dinnerbigbox {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.dinnerbox {
+  width: 310rpx;
+  height: 315rpx;
+  border-radius: 12rpx;
+  /* background-color: green; */
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+
+.dinnerbox .dinnerimg2 {
+  width: 315rpx;
+  height: 190rpx;
+  border-top-left-radius: 12rpx;
+  border-top-right-radius: 12rpx;
+}
+
+.dinnerbox .dinner_name {
+  width: 290rpx;
+  height: 30rpx;
+  font-size: larger;
+  margin-left: 15rpx;
+  margin-top: 20rpx;
+}
+
+.dinnerbox .dinner_price {
+  width: 290rpx;
+  height: 50rpx;
+  color: red;
+  font-size: larger;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.dinner .moredinner {
+  width: 100%;
+  height: 40rpx;
+  font-size: large;
+  margin-top: 40rpx;
+  text-align: center;
+  color: #ccc;
+}
+
+/* 第七部分 */
+.credit {
+  width: 100%;
+  height: 353rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+
+}
+
+.credit .credit_box {
+  width: 375rpx;
+  height: 161rpx;
+  display: inline-block;
+  margin-top: 0;
+  outline: 1px solid #ccc;
+  /* background-color: green; */
+}
+
+.credit_box .creditbox2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.creditimg {
+  width: 70rpx;
+  height: 70rpx;
+  margin-top: 40rpx;
+  margin-right: 10rpx;
+}
+
+.world {
+  text-align: center;
+  margin-top: 40rpx;
+}
+
+.creditbox2 .large {
+  font-size: medium;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.creditbox2 .small {
+  font-size: small;
+  color: #ccc;
+}
+
+/* 第八部分 */
+.bigimg {
+  width: 100%;
+  height: 428rpx;
+  background-color: #fff;
+}
+
+.bigimg .img {
+  width: 100%;
+  height: 392rpx;
+}

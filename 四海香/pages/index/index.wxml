@@ -1,0 +1,142 @@
+<view class="bigbox">
+	<view class="swiper-out">
+		<!-- 第一部分 -->
+		<swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color="#ccc" indicator-active-color="#fff">
+			<swiper-item>
+				<image src="../img/banner.png" class="banner"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="../img/banner2.png" class="banner"></image>
+			</swiper-item>
+		</swiper>
+		<!-- 第二部分 -->
+		<view class="search">
+			<image src="../img/3.png"></image>
+			<view>搜美食、菜谱</view>
+		</view>
+	</view>
+	<!-- 第三部份 -->
+	<view class="thirdbox">
+		<view class="box">
+			<image src="../img/5.png"></image>
+			<view>餐宴</view>
+		</view>
+		<view class="box">
+			<image src="../img/7.png"></image>
+			<view>名厨</view>
+		</view>
+		<view class="box">
+			<image src="../img/4.png"></image>
+			<view>坝坝宴</view>
+		</view>
+		<view class="box">
+			<image src="../img/6.png"></image>
+			<view>餐饮周边</view>
+		</view>
+	</view>
+	<!-- 第四部分 -->
+	<view class="application">
+		<image src="../img/8.png"></image>
+	</view>
+	<!-- 第五部分 -->
+	<view class="chef">
+		<image src="../img/9.png" class="imgchef"></image>
+		<view class="chefbox">
+
+			<view class="box">
+				<image class="chefimg1" src="../img/张小美.png"></image>
+				<view class="chefname">张小美</view>
+				<view class="star">
+					<image src="../img/star.png" class="chefimg2"></image>
+				</view>
+			</view>
+			<view class="box">
+				<image class="chefimg1" src="../img/王大牛.png"></image>
+				<view class="chefname">王大牛</view>
+				<view class="star">
+					<image src="../img/star.png" class="chefimg2"></image>
+				</view>
+			</view>
+			<view class="box">
+				<image class="chefimg1" src="../img/斯塔克.png"></image>
+				<view class="chefname">斯塔克</view>
+				<view class="star">
+					<image src="../img/star.png" class="chefimg2"></image>
+				</view>
+			</view>
+		</view>
+		<view class="morechef">更多名厨</view>
+	</view>
+
+	<!-- 第六部分 -->
+	<view class="dinner">
+		<image src="../img/10.png" class="dinnerImg"></image>
+		<view class="page-section-spacing">
+			<scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+				<view class="dinnerbigbox">
+					<view class="dinnerbox">
+						<image src="../img/25.png" class="dinnerimg2"></image>
+						<view class="dinner_name">盛夏海鲜家宴</view>
+						<view class="dinner_price">￥4999/桌</view>
+					</view>
+					<view class="dinnerbox">
+						<image src="../img/25.png" class="dinnerimg2"></image>
+						<view class="dinner_name">盛夏海鲜家宴</view>
+						<view class="dinner_price">￥4999/桌</view>
+					</view>
+					<view class="dinnerbox">
+						<image src="../img/25.png" class="dinnerimg2"></image>
+						<view class="dinner_name">盛夏海鲜家宴</view>
+						<view class="dinner_price">￥4999/桌</view>
+					</view>
+				</view>
+			</scroll-view>
+		</view>
+		<view class="moredinner">更多餐宴</view>
+	</view>
+	<!-- 第七部分 -->
+	<view class="credit">
+		<view class="credit_box">
+			<view class="creditbox2">
+				<image class="creditimg" src="../img/13.png"></image>
+				<view class="world">
+					<view class="large">信用保障</view>
+					<view class="small">服务到位 ，时间准时</view>
+				</view>
+			</view>
+		</view>
+		<view class="credit_box">
+			<view class="creditbox2">
+				<image class="creditimg" src="../img/14.png"></image>
+
+				<view class="world">
+					<view class="large">认证服务商</view>
+					<view class="small">厨师实名，服务更可靠</view>
+				</view>
+			</view>
+		</view>
+		<view class="credit_box">
+			<view class="creditbox2">
+				<image class="creditimg" src="../img/15.png"></image>
+				<view class="world">
+					<view class="large">品质服务</view>
+					<view class="small">知名品牌，星级厨师</view>
+				</view>
+			</view>
+		</view>
+		<view class="credit_box">
+			<view class="creditbox2">
+				<image class="creditimg" src="../img/16.png"></image>
+				<view class="world">
+					<view class="large">安全保障</view>
+					<view class="small">全平台在线支付</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<!-- 第八部分 -->
+	<view class="bigimg">
+		<image class="img" src="../img/bigpic.png"></image>
+	</view>
+</view>
